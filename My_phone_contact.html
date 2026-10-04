@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Contact Details</h2>
+    <p>Name :<span id="name"></span></p>
+    <p>Phone :<span id="Phone"></span></p>
+    <p>School :<span id="school"></span></p>
+    <p>City :<span id="city"></span></p>
+    <script>
+        var mycontact = {
+            name : "Riya Sharma",
+            phone : "9876543210",
+            school : "Sunrise academy",
+            city : "Mumbai"
+        };
+        document.getElementById("name").textContent = mycontact.name;
+        document.getElementById("Phone").textContent = mycontact.phone;
+        document.getElementById("school").textContent = mycontact.school;
+        document.getElementById("city").textContent = mycontact.city;
+    </script>
+</body>
+</html>
